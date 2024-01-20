@@ -25,7 +25,7 @@ def load_corpus(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--use_bpe", type=bool, default=True)
+    parser.add_argument("-t", "--use_bpe", type=bool, default=False)
     parser.add_argument("-c", "--n_corpus", type=int, default=40000) 
     parser.add_argument("-i", "--n_iter", type=int, default=30000) 
     args = parser.parse_args()
